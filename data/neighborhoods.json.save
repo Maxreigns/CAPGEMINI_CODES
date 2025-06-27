@@ -1,0 +1,8 @@
+[
+  { "name": "Downtown", "walkability": 9, "safety": 6, "nightlife": 8 },
+  { "name": "Suburbia", "walkability": 4, "safety": 9, "nightlife": 3 },
+  { "name": "Riverside", "walkability": 7, "safety": 8, "nightlife": 5 },
+  { "name": "Midtown", "walkability": 8, "safety": 7, "nightlife": 7 }
+]
+
+
