@@ -1,0 +1,4 @@
+com\cms\FirstSpringApplication.class
+com\cms\AppConfig.class
+com\cms\FileListProvider.class
+com\cms\WordCounter.class
