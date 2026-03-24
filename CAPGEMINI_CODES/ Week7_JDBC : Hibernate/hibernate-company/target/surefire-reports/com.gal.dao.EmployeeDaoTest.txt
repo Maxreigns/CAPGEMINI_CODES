@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.gal.dao.EmployeeDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in com.gal.dao.EmployeeDaoTest
+com.gal.dao.EmployeeDaoTest.testGetEmployee -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:681)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:739)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:164)
+	at com.gal.hibernate_company.EntityManagerFactoryProvider.getEntityManager(EntityManagerFactoryProvider.java:13)
+	at com.gal.dao.EmployeeDao.getEmployee(EmployeeDao.java:13)
+	at com.gal.dao.EmployeeDaoTest.testGetEmployee(EmployeeDaoTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.gal.dao.EmployeeDaoTest.testUpdateVaduni -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:681)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:739)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:164)
+	at com.gal.hibernate_company.EntityManagerFactoryProvider.getEntityManager(EntityManagerFactoryProvider.java:13)
+	at com.gal.dao.EmployeeDao.addEmployee(EmployeeDao.java:25)
+	at com.gal.dao.EmployeeDaoTest.testUpdateVaduni(EmployeeDaoTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.gal.dao.EmployeeDaoTest.testAddVaduni -- Time elapsed: 0 s <<< ERROR!
+java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:681)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:739)
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:164)
+	at com.gal.hibernate_company.EntityManagerFactoryProvider.getEntityManager(EntityManagerFactoryProvider.java:13)
+	at com.gal.dao.EmployeeDao.addEmployee(EmployeeDao.java:25)
+	at com.gal.dao.EmployeeDaoTest.testAddVaduni(EmployeeDaoTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

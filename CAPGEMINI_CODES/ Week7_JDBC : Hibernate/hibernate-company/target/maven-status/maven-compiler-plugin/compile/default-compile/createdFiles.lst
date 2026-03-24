@@ -1,0 +1,13 @@
+com/gal/model/Vendor.class
+com/gal/model/Employee.class
+com/gal/dao/ParkingDao.class
+com/gal/model/Project.class
+com/gal/model/Item.class
+com/gal/dao/EmployeeDao.class
+com/gal/hibernate_company/EntityManagerFactoryProvider.class
+com/gal/dao/DepartmentDao.class
+com/gal/dao/ItemDao.class
+com/gal/model/Quotation.class
+com/gal/model/Department.class
+com/gal/EntityManagerFactoryConnectionMain.class
+com/gal/model/Parking.class
